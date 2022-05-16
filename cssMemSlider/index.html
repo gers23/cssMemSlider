@@ -11,28 +11,46 @@
 <body>
   <div class="wrapper">
     <div class="mem-panel">
-      <input type="radio" name="switch" id="slide1" checked>
-      <input type="radio" name="switch" id="slide2">
-      <input type="radio" name="switch" id="slide3">
-      <input type="radio" name="switch" id="slide4">
-      <input type="radio" name="switch" id="slide5">
+      <input class="slide" type="radio" name = "switch" id = "slide1" checked>
+      <input type="radio" name = "switch" id = "slide2">
+      <input type="radio" name = "switch" id = "slide3">
+      <input type="radio" name = "switch" id = "slide4">
       <div class="slider">
-        <div class="slides slide1"></div>
-        <div class="slides slide2"></div>
-        <div class="slides slide3"></div>
-        <div class="slides slide4"></div>
+        <div class="slider__item slide1"></div>
+        <div class="slider__item slide2"></div>
+        <div class="slider__item slide3"></div>
+        <div class="slider__item slide4"></div>
       </div>
-      <div class="caption">
-        <div class="captions caption1"></div>
-        <div class="captions caption1"></div>
-        <div class="captions caption1"></div>
-        <div class="captions caption1"></div>
-      </div>
-      <div class="controls">
-        <label for="slide1"></label>
-        <label for="slide2"></label>
-        <label for="slide3"></label>
-        <label for="slide4"></label>
+      <div class="mem-panel__bottom">
+        <div class="caption">
+          <div class="caption__item caption1">mem1</div>
+          <div class="caption__item caption2">mem2</div>
+          <div class="caption__item caption3">mem3</div>
+          <div class="caption__item caption4">mem4</div>
+        </div>
+        <div class="controls">
+          <div class="controls__items">
+            <label for="slide1">
+              <div class="switch switch1"></div>
+            </label>
+            <label for="slide2">
+              <div class="switch switch2"></div>
+            </label>
+            <label for="slide3">
+              <div class="switch switch3"></div>
+            </label>
+            <label for="slide4">
+              <div class="switch switch4"></div>
+            </label>
+            </div>
+          </div>
+          
+        <!-- <div class="controls">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+        </div> -->
       </div>
     </div>
   </div>
