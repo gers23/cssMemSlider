@@ -1,8 +1,9 @@
 :root {
-  --color-main-background: rgb(224, 235, 137);
+  --color-main-background: rgb(81 88 84);
   --color-switch: rgb(157, 53, 195);
   --color-switch-hover: rgb(53, 176, 195);
   --color-switch-active: rgb(184, 228, 235);
+  --color-text: rgb(225 225 225);
   --width-mobile: 768px;
 }
 
@@ -107,6 +108,7 @@ body {
 
 .caption__item {
   font-size: 1.3rem;
+  color: var(--color-text);
   position: absolute;
   opacity: 0;
   z-index: 0;
